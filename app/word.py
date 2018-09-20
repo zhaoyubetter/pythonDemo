@@ -24,6 +24,10 @@ class Word(object):
     def spell(self):
         return self._spell
 
+    @property
+    def soundmark(self):
+        return self._soundmark
+
     def __str__(self):
         return 'spell:%s, soundmark:%s remark:%s' % (self._spell, self._soundmark, self._remark)
 
@@ -63,17 +67,26 @@ def two():
     # print(sorted(dict.items(), key=lambda x: len(x[1]), reverse=True))
     for key, values in sorted(dict.items(), key=lambda x: len(x[1]), reverse=True)[0:3]:
         print(key + "," + str(len(values)))
-        value = ', '.join(list(map(lambda x:x.spell, values)))
+        value = ', '.join(list(map(lambda x: x.spell, values)))
         print('====>%s: %s' % (key, value))
-
 
     # sort_list = sorted(dict.items(), key=lambda x:len(x.), reverse=True)
     # for i in sort_list[0:3]:
     #     print(i)
 
 
+def three():
+    """ 找出所有没有音标的生词 """
+    filter_words = filter(lambda it:it.soundmark is None, all_words)
+    for word in filter_words:
+        print(word.spell)
+
+
+
 def answer():
     # one()
-    two()
+    # two()
+    three()
+
 
 answer()
