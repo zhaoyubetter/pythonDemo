@@ -1,0 +1,64 @@
+
+
+
+    })
+</script>
+
+<div class="contact main">
+            <div class="banner" style="background-image: url(/Upload/Images/5c3a757077144986ba82395d508597da.jpg);">
+                <div class="w1190">
+                    <h4 class="banner-title">Contact Us</h4>
+                    <div class="line"></div>
+                </div>
+            </div>
+    <div class="box1">
+        <div class="w1190">
+            <div class="cont">
+                <div class="wrap">
+                    <h4 class="title">For product and service inquiry, please contact</h4>
+                    <div class="list-box icon f-cb">
+
+                        <div class="list-wrap pull-left">
+                            <div class="list">
+                                <div class="list-title">China</div>
+                                <div class="text">Business Development Team<br /><br />Fax: +86-25 <br />E-mail:  sales_china@docmy.com</div>
+                            </div>
+                        </div>
+                                    E-mail： lock-bbc@word.com<br />
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-wrap pull-left">
+                            <div class="list last">
+                                <div class="list-title">Other Countries</div>
+                                <div class="text"><br>E-mail: sales@abc.com</div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="list-box f-cb">
+                        <div class="list-wrap pull-left">
+                            <div class="list">
+                                <h4 class="title">For job application, please contact</h4>
+                                        <div class="list-title">HR Department</div>
+                                        <div class="text">Tel: +86-25 8691 8209<br />Fax:  <br />E-mail: hr@hr.com</div>
+                            </div>
+                        </div>
+                        111@ddd.com
+                        <div class="list-wrap pull-left">
+                            <div class="list">
+                                <h4 class="title">For other businesses, please contact</h4>
+                                        <div class="list-title">Admin. Department</div>
+                                        <div class="text">Tel: <br/>Fax:  <br/>E-mail: info@bbcee.com</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</html>
