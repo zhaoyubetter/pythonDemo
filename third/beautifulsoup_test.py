@@ -19,3 +19,4 @@ for match in soup.findAll('a'):     # unwrap a
 for match in soup.findAll('span'):  # unwrap span
     match.unwrap()
 print(re.sub(r'\s', '', soup.text))  # remove space
+
