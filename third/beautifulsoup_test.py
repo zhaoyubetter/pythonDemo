@@ -2,10 +2,7 @@ from bs4 import BeautifulSoup as BS
 import re
 
 text = '''
-<a  href="https://m.weibo.cn/p/searchall?containerid=231522type%3D1%26q%3D%23Pomellato+for+Women%23%26t%3D10&luicode=10000011&lfid=1076032175173250" data-hide="">
-    <span class="surl-text">#Pomellato for Women#</span></a>
-        “当你可以表达自我时；当你了解自己内心的敏感并为之坦诚时，真正独属于你的美油然而生。”Pomellato宝曼兰朵2017艺术广告掌镜人、国际著名时尚摄影大师彼得·林德伯格(Peter Lindbergh)如是阐述此次拍摄主题。六位来自不同专业领域、年龄各异的魅力女人在镜头前一如本色，袒露真 ​​​...
-        <a href="/status/4113817984553285">全文</a>
+Pomellato宝曼兰朵特邀中国 IT Girl，时尚博主<a href='/n/Fil小白'>@Fil小白</a> 来到品牌发源地米兰，共赴 <a  href=\"https://m.weibo.cn/p/searchall?containerid=231522type%3D1%26q%3D%23Pomellato+Balera+Party%23%26t%3D10&extparam=%23Pomellato+Balera+Party%23\" data-hide=\"\"><span class=\"surl-text\">#Pomellato Balera Party#</span></a> 复古风情时尚派对，Fil 小白以一身酷黑西装套装现身，颈间佩戴<a  href=\"https://m.weibo.cn/p/searchall?containerid=231522type%3D1%26q%3D%23Pomellato+Tango%E7%B3%BB%E5%88%97%23%26t%3D10&extparam=%23Pomellato+Tango%E7%B3%BB%E5%88%97%23\" data-hide=\"\"><span class=\"surl-text\">#Pomellato Tango系列#</span></a> 玫瑰金镶钻项链，指间巧妙叠戴<a  href=\"https://m.weibo.cn/p/searchall?containerid=231522type%3D1%26q%3D%23Pomellato+Nudo%E7%B3%BB%E5%88%97%23%26t%3D10&extparam=%23Pomellato+Nudo%E7%B3%BB%E5%88%97%23\" data-hide=\"\"><span class=\"surl-text\">#Pomellato Nudo系列#</span></a> 与<a  href=\"https://m.weibo.cn/p/searchall?containerid=231522type%3D1%26q%3D%23Pomellato+Iconica%E7%B3%BB%E5%88%97%23%26t%3D10&extparam=%23Pomellato+Iconica%E7%B3%BB%E5%88%97%23\" data-hide=\"\"><span class=\"surl-text\">#Pomellato Iconica系列#</span></a> 戒指，明丽魅惑间气场全开。"
 '''
 
 soup = BS(text, 'html.parser')
@@ -13,9 +10,9 @@ soup = BS(text, 'html.parser')
 # print(soup.a.replace_with(''))
 
 for match in soup.findAll('a'):     # unwrap a
-    print(match.text)
-    print(match.get('href'))        # 子链接
-    # print(match.unwrap())
+    # print(match.text)
+    # print(match.get('href'))        # 子链接
+    print(match.unwrap())
 for match in soup.findAll('span'):  # unwrap span
     match.unwrap()
 print(re.sub(r'\s', '', soup.text))  # remove space
