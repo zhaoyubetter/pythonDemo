@@ -122,4 +122,4 @@ def main():
 # Crawl(Create_Ajax_URL('http://movie.mtime.com/98604/'))
 
 if __name__ == '__main__':
-    # main()
+#main()

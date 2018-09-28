@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91c1b71c-c5c5-4780-820e-d47ffb4c93ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/pythonTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/normal_use/datetime_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/weibo_spider_oneof_brand.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/weibo_spider_oneof_brand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third/beautifulsoup_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/third/beautifulsoup_test.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +28,7 @@
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -65,36 +62,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/weibo_spider_oneof_brand.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+            <state relative-caret-position="2714">
+              <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
               <folding>
                 <element signature="e#13#28#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/y_generate/2018.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="186" column="9" lean-forward="true" selection-start-line="186" selection-start-column="9" selection-end-line="186" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/y_generate/2017.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4113" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/y_generate/2016.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="309" column="46" selection-start-line="309" selection-start-column="46" selection-end-line="309" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -203,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="133" />
     <option name="y" value="57" />
     <option name="width" value="1537" />
@@ -223,11 +195,6 @@
             <path>
               <item name="pythonTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonTest" type="462c0819:PsiDirectoryNode" />
-              <item name="y_generate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -517,10 +484,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25264272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25264272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -528,13 +494,13 @@
       <window_info anchor="bottom" id="Python Console" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32915717" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.2861991" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.2861991" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39772728" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.29225352" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32801822" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32692307" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -833,13 +799,6 @@
         <state relative-caret-position="-21427" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/y_generate/2018.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="186" column="9" lean-forward="true" selection-start-line="186" selection-start-column="9" selection-end-line="186" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/y_generate/2017.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4113" />
@@ -852,10 +811,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/y_generate/2018.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="186" column="9" lean-forward="true" selection-start-line="186" selection-start-column="9" selection-end-line="186" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/weibo_spider_oneof_brand.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+        <state relative-caret-position="2714">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
           <folding>
             <element signature="e#13#28#0" expanded="true" />
           </folding>
