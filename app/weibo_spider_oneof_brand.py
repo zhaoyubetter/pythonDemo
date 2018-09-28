@@ -120,6 +120,6 @@ def main():
 
 # 问题所在，请求如下单个电影链接时时不时会爬取不到数据
 # Crawl(Create_Ajax_URL('http://movie.mtime.com/98604/'))
-
-if __name__ == '__main__':
-#main()
+#
+# if __name__ == '__main__':
+# #main()
