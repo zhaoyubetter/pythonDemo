@@ -11,7 +11,7 @@ headers = {
 
 # 全文extend_url
 extend_url = 'https://m.weibo.cn/statuses/extend?id=%s'
-# 宝曼兰朵
+# 宝曼兰朵 uid=2175173250
 brand_url = 'https://m.weibo.cn/api/container/getIndex?uid=2175173250&luicode=10000011&lfid=100103type%3D1%26q%3D%E5%AE%9D%E6%9B%BC%E5%85%B0%E6%9C%B5&type=uid&value=2175173250&containerid=1076032175173250'
 
 
